@@ -173,7 +173,7 @@
           .tarjeta.bg-white.p-4
             TarjetaAudio.color-acento-botones(
               texto="Importancia de los mapas comunitarios"
-              :audio="require_src('@/assets/curso/temas/t2/podcast.png')"
+              :audio="require_src('@/assets/curso/temas/t2/podcast.mp3')"
             )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
             p.mt-3
